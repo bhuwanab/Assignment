@@ -63,16 +63,7 @@ public class ToDoList {
 	}
 	
 	
-	public boolean VerifyDescription(String desc) {
-		for(Task t: tasks) {
-			if(t.getTaskDescription().equals(desc)) {
-				return true;
-			}
-			
-		}
-		return false;
-	}
-
+	
 }
 
 
